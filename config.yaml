@@ -1,0 +1,15 @@
+credentials:
+  usernames:
+    Laura:
+      email: samuel.wehrli@gmail.com
+      name: Laura
+      password: $2b$12$ZVq..AUkgzUfIY9NQIZi4./lWqLqbNtWIxGDYWPnyUcoLQGzy0mQm # To be replaced with hashed password
+    guest:
+      name: Guest
+      password: $2b$12$xENYcqb/rga3CpbZAcheEO.VO9qUfjK6mjLo10o6m1w5edXt11Xma # To be replaced with hashed password
+
+
+cookie:
+  expiry_days: 30  # number of days until password is asked again
+  key: JgDyEoKUNItM5prxo194jDeLYzVzmYE6 # Must be string, use https://randomkeygen.com/
+  name: streamlitcookie
